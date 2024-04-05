@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pricing tabs - Tailwind CSS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+Include Tailwind JIT CDN compiler
+More info: https://beyondco.de/blog/tailwind-jit-compiler-via-cdn
+-->
+<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+
+<!-- Specify a custom Tailwind configuration -->
+<script type="tailwind-config">
+{
+  theme: {
+    extend: {
+      colors: {
+        gray: colors.blueGray,
+        green: colors.teal,
+      }
+    }
+  }
+}
+</script>
+
+
+<nav class="bg-gray-900 border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">UNLOCKSERVER</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-700 rounded-lg bg-gray-500 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Snippet -->
+<section class="flex flex-col justify-center antialiased bg-gray-900 text-gray-600 min-h-screen p-4">
+  <center>
+    <h1 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+          UNLOCKSERVER
+        </h1><p class="mx-auto mt-4 max-w-xl sm:text-xl text-slate-400">
+          SERVER OFICIAL UNLOCKSERVER!!!
+          ESTAMOS EN DESARROLLO MUY PRONTO ESTARAN DISPONIBLES TODOS LOS SERVICIOS 
+        </p>
+      </div>
+      </center>
+      <section class="flex flex-col justify-center antialiased bg-gray-900 text-gray-600 min-h-screen p-4">
+    <div class="h-full">
+        <!-- Card -->
+        <div class="max-w-xs mx-auto">
+            <div class="relative flex flex-col h-full bg-indigo-700 shadow-lg rounded-lg shadow-lg p-5">
+                <!-- Popular badge -->
+                <div class="absolute top-0 right-5">
+                    <div class="text-xs inline-flex font-semibold bg-green-100 text-green-600 rounded-full text-center px-3 py-1.5 shadow-sm transform -translate-y-1/2">Most Popular</div>
+                </div>
+                <!-- Card header -->
+                <header class="pb-4 mb-4 border-b border-indigo-200 border-opacity-30">
+                    <!-- Logo -->
+                    <div class="mb-2">
+                        <svg width="42" height="44" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs>
+                                <linearGradient x1="27.515%" y1="0%" x2="59.658%" y2="100%" id="b">
+                                    <stop stop-color="#5EEAD4" offset="0%" />
+                                    <stop stop-color="#2DD4BF" offset="100%" />
+                                </linearGradient>
+                                <linearGradient x1="67.338%" y1="82.466%" x2="4.807%" y2="15.884%" id="c">
+                                    <stop stop-color="#F0FDFA" stop-opacity=".12" offset="0%" />
+                                    <stop stop-color="#F0FDFA" offset="100%" />
+                                </linearGradient>
+                                <linearGradient x1="47.38%" y1="24.752%" x2="58.769%" y2="81.336%" id="e">
+                                    <stop stop-color="#0F766E" stop-opacity=".24" offset="0%" />
+                                    <stop stop-color="#0D9488" stop-opacity="0" offset="100%" />
+                                </linearGradient>
+                                <path id="a" d="M25.015 44 0 29.437 10.654 0l25.17 4.338L42 26.648z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <mask id="d" fill="#fff">
+                                    <use xlink:href="#a" />
+                                </mask>
+                                <use fill="url(#b)" xlink:href="#a" />
+                                <path d="m10.281-.584 23.651 20.647 14.84 11.177 7.884-14.748-.927-9.78-11.44-7.296-8.81-3.26L20.02-4.62 10.281-.584Z" fill="url(#c)" style="mix-blend-mode:overlay" mask="url(#d)" />
+                                <path d="M43.015 17.16-1.969 29.974l6.647 11.579c6.184 3.808 9.481 5.867 9.894 6.175.412.31 7.729.31 21.95 0l7.884-9.88-1.391-20.688Z" fill="url(#e)" style="mix-blend-mode:multiply" mask="url(#d)" />
+                                <path fill-opacity=".32" fill="#F0FDFA" style="mix-blend-mode:overlay" mask="url(#d)" d="m36.18 3.3-2.17 16.714L23.625 48.18l20.15-5.107 5.89-11.297 1.085-18.881z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <!-- Product name -->
+                    <h3 class="text-xl font-extrabold text-indigo-50 leading-snug mb-2">UNLOCKSERVER</h3>
+                    <!-- Price -->
+                    <div class="font-extrabold mb-1"><span class="text-2xl text-indigo-200">$</span><span class="text-4xl text-indigo-50">120</span></div>
+                    <!-- Description -->
+                    <div class="text-indigo-200">SERVICIO DE CHEQUEO DE IMEI VERIFICACIÓN COMPLETA APPLE</div>
+                    </header>
+                                    <!-- Features list -->
+                                    <ul class="text-indigo-200 text-sm space-y-2 flex-grow mb-6">
+                                        <li class="flex items-center">
+                                            <svg class="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            </svg>
+                                            <span>Reporte/Black list.</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <svg class="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            </svg>
+                                            <span>Operador de fabrica .</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <svg class="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            </svg>
+                                            <span>Estado de iCloud.</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <svg class="w-3 h-3 fill-current text-green-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            </svg>
+                                            <span>Estado de garantía
+                                            .</span>
+                                        </li>
+                                    </ul>
+                                    <a href="https://buy.stripe.com/6oEcOV9aZevU4UweUV" class="font-semibold text-sm inline-flex items-center justify-center px-3 py-2 border border-transparent rounded leading-5 shadow transition duration-150 ease-in-out w-full bg-green-400 hover:bg-green-500 text-white focus:outline-none focus-visible:ring-2">Adquirir Servicio!</a>
+                                </div>
+
+
+
+                    <center>
+
+                                  <!-- Card content -->
+                     <form method="POST" action="" style="margin-top:5%">
+                              <select class="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 mt-4">
+                    <option value="0" selected="selected" style="text-align:left;">PLEASE CHOOSE CHECKER</option>
+                       <optgroup label="APPLE SERVICES" style="text-align:left">
+                        <option value="https://buy.stripe.com/6oEcOV9aZevU4UweUV" style="text-align:left">1.80 - APPLE SOLD BY & COVERAGE</option>
+                        <option value="68" style="text-align:left">2.00 - APPLE GSX CASES & REPAIRS</option>
+                        <option value="76" style="text-align:left">2.00 - APPLE GSX CASES ID INFO</option>
+                        <option value="62" style="text-align:left">0.80 - APPLE iOS VERSION & NEXT TETHER</option>
+                        <option value="67" style="text-align:left">1.80 - APPLE GSX POLICY & Wi-Fi MAC</option>
+                        <option value="63" style="text-align:left">2.20 - APPLE FULL GSX - PREMIUM INFO</option>
+                        <option value="103" style="text-align:left">0.06 - iPHONE CARRIER - SIMPLE</option>
+                        <option value="61" style="text-align:left">0.12 - iPHONE CARRIER - FMI & BLACKLIST</option>
+                        <option value="78" style="text-align:left">0.08 - iPHONE CARRIER - FMI</option>
+                        <option value="8" style="text-align:left">0.025 - iPHONE SIM-LOCK</option>
+                        <option value="12" style="text-align:left">0.025 - IMEI - SN CONVERT</option>
+                        <option value="30" style="text-align:left">0.06 - APPLE BASIC INFO</option><option value="26" style="text-align:left">0.01 - APPLE SERIAL INFO</option>
+    <option value="3" style="text-align:left">0.02 - iCLOUD ON/OFF</option>
+    <option value="4" style="text-align:left">0.03 - iCLOUD CLEAN/LOST</option>
+    <option value="10" style="text-align:left">0.03 - APPLE ACTIVATION STATUS - IMEI/SN</option>
+    <option value="81" style="text-align:left">1.00 - APPLE iOS & MAC MDM STATUS</option>
+    <option value="11" style="text-align:left">3.50 - APPLE iOS & MAC MDM PRO STATUS</option>
+    <option value="110" style="text-align:left">0.40 - MACBOOK&iMAC iCLOUD ON/OFF STATUS</option>
+    <option value="66" style="text-align:left">0.50 - MACBOOK&iMAC ICLOUD CLEAN/LOST STATUS</option>
+   </optgroup>
+   <optgroup label="STATUS SERVICES" style="text-align:left">
+    <option value="6" style="text-align:left">0.09 - WW BLACKLIST STATUS - PRO</option>
+    <option value="54" style="text-align:left">0.04 - WW BLACKLIST STATUS</option>
+    <option value="16" style="text-align:left">0.05 - T-MOBILE USA STATUS - PRO</option>
+    <option value="25" style="text-align:left">0.12 - T-MOBILE USA SIMLOCK STATUS</option>
+    <option value="9" style="text-align:left">0.05 - VERIZON USA STATUS - PRO</option>
+    <option value="20" style="text-align:left">0.02 - KOREA BLACKLIST STATUS</option>
+    <option value="32" style="text-align:left">0.08 - JAPAN BLACKLIST STATUS</option>
+    <option value="31" style="text-align:left">0.01 - AUSTRALIA BLACKLIST STATUS</option>
+   </optgroup>
+   <optgroup label="GENERIC SERVICES" style="text-align:left">
+    <option value="19" style="text-align:left">0.06 - LG INFO</option>
+    <option value="55" style="text-align:left">0.05 - ZTE INFO</option>
+    <option value="34" style="text-align:left">0.06 - ASUS INFO</option>
+    <option value="39" style="text-align:left">0.04 - OPPO INFO</option>
+    <option value="5" style="text-align:left">0.03 - SONY INFO</option>
+    <option value="23" style="text-align:left">0.06 - ACER INFO</option>
+    <option value="44" style="text-align:left">0.05 - SONIM INFO</option>
+    <option value="73" style="text-align:left">0.08 - HONOR INFO</option>
+    <option value="56" style="text-align:left">0.05 - DOOGEE INFO</option>
+    <option value="84" style="text-align:left">0.04 - REALME INFO</option>
+    <option value="15" style="text-align:left">0.10 - HUAWEI INFO</option>
+    <option value="22" style="text-align:left">0.06 - LENOVO INFO</option>
+    <option value="36" style="text-align:left">0.04 - ONEPLUS INFO</option>
+    <option value="43" style="text-align:left">0.05 - KYOCERA INFO</option>
+    <option value="17" style="text-align:left">0.10 - ALCATEL INFO</option>
+    <option value="13" style="text-align:left">0.08 - MOTOROLA INFO</option>
+    <option value="75" style="text-align:left">0.02 - VIVO & IQOO INFO</option>
+    <option value="42" style="text-align:left">0.12 - GOOGLE PIXEL INFO</option>
+    <option value="80" style="text-align:left">0.06 - SAMSUNG INFO      </option>
+    <option value="1" style="text-align:left">0.10 - SAMSUNG INFO - PRO</option>
+    <option value="203" style="text-align:left">0.02 - BRAND & MODEL INFO</option>
+    <option value="37" style="text-align:left">0.00 - SIM ICCID/IMSI INFO</option>
+    <option value="46" style="text-align:left">0.50 - SONY BOOTLOADER KEY</option>
+    <option value="206" style="text-align:left">0.10 - XIAOMI MI LOCK & INFO</option>
+    <option value="58" style="text-align:left">0.50 - XIAOMI MI LOCK STATUS</option>
+    <option value="82" style="text-align:left">0.30 - SAMSUNG KNOX GUARD INFO</option>
+    <option value="45" style="text-align:left">0.02 - ITEL | TECNO | SONIM INFO</option>
+   </optgroup>
+  </select>
+     <button onClick="this.form.submit(); this.disabled=true; this.value='Please Wait';" type="submit" class="mt-4 w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-blue-500 focus:ring-opacity-50">Submit</button>
+        </form>
+      </center>
+      </div>
+</section>
+<!-- More components -->
+  <!-- partial -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.7.0/cdn.js'></script>
+  </body>
+  </html>
